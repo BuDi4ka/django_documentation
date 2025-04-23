@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# If using PostgreSQL/MySQL/etc, you might also ignore local DB dumps
+*.sql
+
+# Media and file uploads
+/media/
+/staticfiles/
+/static_root/
+/media_root/
+
+# Ignore Django migrations (optional, only if you want fresh migrations)
+# ** Uncomment if you don’t want to track them **
+# */migrations/
+# !*/migrations/__init__.py
+
+# Environment files
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS & system files
+.DS_Store
+Thumbs.db
+
+# Test coverage / reports
+htmlcov/
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+*.log
+
+# Pip environment
+pip-log.txt
+
+# Build / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / pytest
+.pytest_cache/
+.tox/
+
+# Sphinx docs
+docs/_build/
+
+# Local settings (optional)
+local_settings.py
